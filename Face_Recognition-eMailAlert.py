@@ -24,10 +24,10 @@ class P1:
     def cargarRostros(self):
         try:
             rostros = [
-                {"nombre": "Alejandro Torres", "imagen": "images/name_2.jpeg"},
-                {"nombre": "Jhon Moreno", "imagen": "images/name2_1.jpeg"},
-                {"nombre": "Isabel Diaz", "imagen": "images/name3_1.jpeg"},
-                {"nombre": "Edwin Aguirre", "imagen": "images/name4_2.jpeg"}
+                {"nombre": "#Person name", "imagen": "images/name_2.jpeg"},
+                {"nombre": "#Person name", "imagen": "images/name2_1.jpeg"},    #U can delete or add more recognition faces
+                {"nombre": "#Person name", "imagen": "images/name3_1.jpeg"},
+                {"nombre": "#Person name", "imagen": "images/name4_2.jpeg"}
             ]
             for rostro in rostros:
                 if os.path.exists(rostro["imagen"]):
