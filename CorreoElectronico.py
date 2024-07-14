@@ -8,8 +8,8 @@ class CorreoElectronico:
     def __init__(self):
         self.servidorSMTP = "smtp.office365.com"
         self.puerto = 587
-        self.usuario = "grupoprogcyber@hotmail.com"
-        self.contraseña = "grupoprogramacion3"
+        self.usuario = "" #email, example: hello123@hotmail.com
+        self.contraseña = ""  # hotmail passwd
 
     def enviarCorreo(self, destinatario, asunto, mensaje, archivoAdjunto=None):
         msg = MIMEMultipart()
