@@ -1,6 +1,6 @@
 # Requirements
 
-Librerys P1:
+Libs P1:
 Face_recognition
 numpy
 os
