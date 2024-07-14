@@ -10,7 +10,7 @@ class P1:
         try:
             self.detectorRostro = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
             self.rutaImages = "images"
-            self.correoDestinatario = "grupoprogcyber@hotmail.com"
+            self.correoDestinatario = " " #U can delete the part of sending the email.
             self.encodingsRostros = []
             self.nombresRostros = []
             self.intentos = 0
@@ -24,10 +24,10 @@ class P1:
     def cargarRostros(self):
         try:
             rostros = [
-                {"nombre": "Alejandro Torres", "imagen": "images/Alejandro_2.jpeg"},
-                {"nombre": "Jhon Moreno", "imagen": "images/Jhon_1.jpeg"},
-                {"nombre": "Isabel Diaz", "imagen": "images/Isabel_1.jpeg"},
-                {"nombre": "Edwin Aguirre", "imagen": "images/Edwin_2.jpeg"}
+                {"nombre": "Alejandro Torres", "imagen": "images/name_2.jpeg"},
+                {"nombre": "Jhon Moreno", "imagen": "images/name2_1.jpeg"},
+                {"nombre": "Isabel Diaz", "imagen": "images/name3_1.jpeg"},
+                {"nombre": "Edwin Aguirre", "imagen": "images/name4_2.jpeg"}
             ]
             for rostro in rostros:
                 if os.path.exists(rostro["imagen"]):
